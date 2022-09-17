@@ -4,6 +4,10 @@
 }
 
 .blogPost .bigBlogImg img {
+    max-height: 40vh;
+    width: 90%;
+    object-fit: cover;
+    object-position: center;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
@@ -15,11 +19,7 @@
     font-weight: 900;
 }
 
-.blogPost .postHead h2 {
-    font-size: 24px;
-}
-
-.blogPost .postHead p {
+.blogPost .postHead h2, .blogPost .postHead p {
     font-size: 24px;
 }
 
@@ -38,4 +38,27 @@
 
 .blogPost {
     padding: 160px 0px 100px 0px;
+}
+
+@media only screen and (max-width: 600px) {
+    .blogPost .blogContent, .blogPost .postHead {
+        margin-left: 50px;
+    }
+
+    .blogPost .postHead {
+        justify-content: left;
+        align-items: baseline;
+        gap: 20px;
+    }
+
+    .blogPost .postHead h2, .blogPost .postHead p {
+        font-size: 18px;
+        font-weight: 700;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .blogPost .blogContent, .blogPost .postHead {
+        margin-left: 150px;
+    }
 }

@@ -17,3 +17,15 @@
 .grid-item .blogDescription {
     margin-left: 1rem;
 }
+
+@media only screen and (max-width: 600px) {
+    .grid-item .blogDescription h2 {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .grid-item .blogDescription h2 {
+        font-size: 20px;
+    }
+}

@@ -9,7 +9,6 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% auto;
-    /* transform: translateY(-0px); */
 }
 
 .Home .homeContent {
@@ -26,4 +25,26 @@
 
 .Home .homeContent button {
     width: max-content;
+}
+
+@media only screen and (max-width: 945px) {
+    .Home header {
+        background: rgb(251, 213, 68);
+        height: 10vh;
+    }
+
+    .Home .homeContent h1 {
+        font-size: 20px;
+        max-width: 30vw;
+    }
+}
+
+@media only screen and (min-width: 946px) and (max-width: 1024px) {
+    .Home header {
+        background-color: rgb(251, 213, 68);
+        height: 35vh;
+    }
+    .Home .homeContent h1 {
+        max-width: 30vw;
+    }
 }

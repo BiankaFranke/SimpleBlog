@@ -8,7 +8,6 @@ import "./BlogInput.css";
 
 const BlogInput = () => {
     let params = useParams();
-    console.log(params.id);
     let input = blogData[params.id];
     return (
         <div className="blogPost">

@@ -7,3 +7,19 @@
     padding: 12px 16px;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 600px) {
+    .btn {
+        font-weight: 700;
+        border-radius: 5px;
+        padding: 8px 12px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .btn {
+        font-weight: 700;
+        border-radius: 8px;
+        padding: 10px 14px;
+    }
+}

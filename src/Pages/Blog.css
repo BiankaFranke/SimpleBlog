@@ -5,3 +5,20 @@
     align-content: center;
     gap: 64px;
 }
+
+@media only screen and (max-width: 950px) {
+    .blogOverview {
+        height: auto;
+        justify-content: center;
+        grid-template-columns: repeat(1, 0.5fr);
+    }
+}
+
+@media only screen and (min-width: 951px) and (max-width: 1024px) {
+    .blogOverview {
+        height: auto;
+        grid-template-columns: repeat(2, 0.4fr);
+        justify-content: center;
+        column-gap: 10px;
+    }
+}

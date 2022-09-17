@@ -9,7 +9,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: auto 3rem;
+    margin: auto 1rem;
 }
 
 .Navbar ul {
@@ -17,4 +17,11 @@
     list-style-type: none;
     gap: 2rem;
     font-weight: 900;
+}
+
+@media only screen and (max-width: 600px) {
+    .navigation {
+        justify-content: left;
+        margin-left: 1rem;
+    }
 }
