@@ -13,7 +13,7 @@ const BlogInput = () => {
     return (
         <div className="blogPost">
             <div className="bigBlogImg">
-                <img src={input.img_url}></img>
+                <img src={input.img_url} alt="Blog img"></img>
             </div>
             <div className="postHead">
                 <h2>{input.title}</h2>
