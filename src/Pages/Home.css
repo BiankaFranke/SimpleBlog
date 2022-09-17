@@ -1,0 +1,12 @@
+.Home header {
+    width: 100vw;
+    height: 50vh;
+    background: url(../Img/lev2_2_js-reactjs_router_simple-blog.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+}
+
+.Home .homeContent {
+    margin-left: 10rem;
+}
