@@ -1,3 +1,7 @@
+.Home {
+    position: relative;
+}
+
 .Home header {
     width: 100vw;
     height: 50vh;
@@ -5,8 +9,17 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% auto;
+    /* transform: translateY(-0px); */
 }
 
 .Home .homeContent {
+    height: 50vh;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
     margin-left: 10rem;
+}
+
+.Home .homeContent button {
+    width: max-content;
 }
