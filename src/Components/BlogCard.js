@@ -11,7 +11,7 @@ const BlogCard = (props) => {
         <div className="BlogCard">
             <div className="grid-item">
                 <div className="blogImg">
-                    <img src={props.img} alt="Blog Img"></img>
+                    <Link to={`/${props.id}`}><img src={props.img} alt="Blog Img"></img></Link>
                 </div>
                 <div className="blogDescription">
                     <h2 className="title">{props.title}</h2>
