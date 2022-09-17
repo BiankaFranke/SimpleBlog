@@ -20,6 +20,10 @@
     margin-left: 10rem;
 }
 
+.Home .homeContent h1 {
+    max-width: 10vw;
+}
+
 .Home .homeContent button {
     width: max-content;
 }
