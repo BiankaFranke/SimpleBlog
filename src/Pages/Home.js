@@ -12,7 +12,7 @@ const Home = () => {
 
             <div className="homeContent">
                 <h1>Welcome to my simple Blog</h1>
-                <button className="btn"><Link style={{textDecoration: 'none', color: '#219653'}} to="/blog">Got to articles</Link></button>
+                <button className="btn"><Link style={{textDecoration: 'none', color: '#219653'}} to="/blog">Go to articles</Link></button>
             </div>
         </div>
      );
